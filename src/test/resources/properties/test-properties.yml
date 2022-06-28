@@ -1,0 +1,5 @@
+apiKeys: apiKeys
+apiSecretKey: apiSecretKey
+authUrl: https://api.twitter.com/oauth2/token?grant_type=client_credentials
+baseUrl: https://api.twitter.com
+
