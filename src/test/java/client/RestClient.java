@@ -7,11 +7,13 @@ import io.restassured.specification.RequestSpecification;
 import utils.ManageProperties;
 import utils.TestProperties;
 
+import java.io.File;
 import java.util.Map;
 
 public class RestClient {
     TestProperties properties;
     RequestSpecification request;
+
     Response response;
 
     public RestClient(String token)
@@ -22,6 +24,10 @@ public class RestClient {
         setHeaders(token);
 
     }
+    public RestClient(RequestSpecification requestSpecification){
+        this.request= requestSpecification;
+
+    }
     public void setHeaders(String token)
     {
         request.header("Authorization","Bearer " + token);
@@ -30,6 +36,10 @@ public class RestClient {
         response=request.queryParams(parameters).get(url);
         return response;
 
+    }
+    public Response postWithJson(String url, File requestFile){
+        response= request.body(requestFile).post(url);
+    return response;
     }
 
 

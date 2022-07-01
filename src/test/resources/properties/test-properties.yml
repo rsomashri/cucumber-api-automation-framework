@@ -1,5 +1,7 @@
-apiKeys: apiKeys
-apiSecretKey: apiSecretKey
+apiKeys: W5mDE1X8Q3D5bN8a6drr1kYjm
+apiSecretKey: gOjdbnAJpFwAAQY2zaYSFWerIzFHs0d93bnHIZUmPUnktwfbgW
 authUrl: https://api.twitter.com/oauth2/token?grant_type=client_credentials
 baseUrl: https://api.twitter.com
+accessToken: 1002196176572112898-1hnUEIbUCBHIuhh4t31cc7e64h4C9q
+accessSecret: w6QRoAFzoytZk5AeyWwkoFaIT7Wy6H2fJsCoo2GHIVlrR
 

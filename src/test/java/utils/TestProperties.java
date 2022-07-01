@@ -7,6 +7,17 @@ public class TestProperties {
 
     String baseUrl;
 
+    String accessToken;
+
+    String accessSecret;
+
+    public String getAccessToken() {
+        return accessToken;
+    }
+
+    public String getAccessSecret() {
+        return accessSecret;
+    }
 
     public String getApiKeys() {
         return apiKeys;
