@@ -3,4 +3,4 @@ RUN mkdir /apiautomation
 COPY . /apiautomation
 WORKDIR /apiautomation
 RUN mvn dependency:go-offline -B
-
+CMD mvn test

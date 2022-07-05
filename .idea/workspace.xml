@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86baa4b2-2810-4e8c-a09e-2cf994bd18d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_test.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/cucumber-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/request/tweetRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/request/tweetRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/response/tweetResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/response/tweetResponse.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
