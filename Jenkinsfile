@@ -1,9 +1,9 @@
 pipeline {
-    agent any
+    agent { dockerfile true }
     stages {
         stage('Test') {
             steps {
-               sh './run_test.sh true'
+                sh './run_test.sh true'               
             }
         }
     }
