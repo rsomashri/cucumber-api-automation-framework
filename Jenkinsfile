@@ -5,6 +5,7 @@ pipeline {
         agent { dockerfile true }
             steps {
                sh './run_test.sh true'
+               echo "i'm here"
             }
         }
     }
