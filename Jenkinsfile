@@ -3,7 +3,9 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh './run_test.sh true'               
+               sh './run_test.sh true'
+               echo "i'm here"
+
             }
         }
     }
