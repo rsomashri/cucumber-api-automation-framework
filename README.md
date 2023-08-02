@@ -16,6 +16,9 @@ git@github.com:rsomashri/cucumber-api-automation-framework.git
     1. [Cucumber for Java](https://plugins.jetbrains.com/plugin/7212-cucumber-for-java)
     2. [Gherkin](https://plugins.jetbrains.com/plugin/9164-gherkin)
 5. Docker
+6. Used twitter api's as an example for automation test execution:
+Create twitter developer account to access the api (payload, endpoints and access token)
+ https://developer.twitter.com/en
 
 ### Running tests
 Navigate to project root on terminal.
